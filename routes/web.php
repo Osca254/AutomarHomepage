@@ -26,3 +26,4 @@ Route::resource('cars', CarController::class);
 Route::get('/', [HomeController::class, 'show']);
 
 Route::get('/home/{car}', [HomeController::class, 'show']);
+
